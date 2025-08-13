@@ -12,4 +12,12 @@ class Screen:
         i += x
         self.canvas[i] = char
     def render(self):
-        pass
+        i = 0
+        for row in range(self.height):
+            line = ''
+            for column in range(self.width):
+                line += self.canvas[i]
+                i += 1
+            print(line)
+                
+        
