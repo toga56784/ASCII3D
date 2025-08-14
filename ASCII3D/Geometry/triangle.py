@@ -7,6 +7,6 @@ class Triangle:
         self.point_2 = point_2
         self.point_3 = point_3
     def draw(self, screen, brightness:int):
-        draw_line(self.point_1[0], self.point_2[0], self.point_1[1], self.point_2[1], screen, BRIGHTNESS[brightness])
-        draw_line(self.point_3[0], self.point_2[0], self.point_3[1], self.point_2[1], screen, BRIGHTNESS[brightness])
-        draw_line(self.point_1[0], self.point_3[0], self.point_1[1], self.point_3[1], screen, BRIGHTNESS[brightness])
+        draw_line(self.point_1[0], self.point_1[1], self.point_2[0], self.point_2[1], screen, BRIGHTNESS[brightness])
+        draw_line(self.point_2[0], self.point_2[1], self.point_3[0], self.point_3[1], screen, BRIGHTNESS[brightness])
+        draw_line(self.point_3[0], self.point_3[1], self.point_1[0], self.point_1[1], screen, BRIGHTNESS[brightness])

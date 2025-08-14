@@ -14,3 +14,6 @@ def draw_line(x0, y0, x1, y1, screen, char):
         gradient = dy/dx
         for i in range(dx+1):
             screen.draw_char(x0+i, round(y0+i * gradient), char)
+    else:
+        for i in range(dy+1):
+            screen.draw_char(x0, y0+i, char)
