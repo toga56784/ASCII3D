@@ -1,11 +1,11 @@
 from . import Geometry
 from .screen import Screen
-from .utils import clear_console
+from .utils import clear_console, draw_line
 from .config import EDGES, BRIGHTNESS
 
 __all__ = [
     'Screen',
-    'clear_console',
+    'clear_console', 'draw_line'
     'EDGES', 'BRIGHTNESS',
     'Geometry'
 ]
