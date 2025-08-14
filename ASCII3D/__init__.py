@@ -1,7 +1,9 @@
 from .screen import Screen
 from .utils import clear_console
+from .config import EDGES, BRIGHTNESS
 
 __all__ = [
-    'screen',
-    'utils'
+    'Screen',
+    'clear_console',
+    'EDGES', 'BRIGHTNESS'
 ]
